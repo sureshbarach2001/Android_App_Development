@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassActivity.InputMainActivity">
+
+    <ImageView
+        android:id="@+id/imagebrowse"
+        android:layout_width="326dp"
+        android:layout_height="292dp"
+        android:contentDescription="@string/imageshow"
+        app:layout_constraintBottom_toTopOf="@+id/button21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittextprice"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="250dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="156dp"
+        android:text="@string/saveinfirebase"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="250dp"
+        android:layout_height="109dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/listview"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toEndOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/imagebrowse"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <EditText
+        android:id="@+id/edittextname"
+        android:layout_width="448dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/nameinput"
+        app:layout_constraintBottom_toTopOf="@+id/edittexttompany"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="196dp" />
+
+    <EditText
+        android:id="@+id/edittexttompany"
+        android:layout_width="448dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/companyinput"
+        app:layout_constraintBottom_toTopOf="@+id/edittextprice"
+        app:layout_constraintTop_toBottomOf="@+id/edittextname"
+        tools:layout_editor_absoluteX="196dp" />
+
+    <EditText
+        android:id="@+id/edittextprice"
+        android:layout_width="448dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/priceinput"
+        app:layout_constraintBottom_toTopOf="@+id/imagebrowse"
+        app:layout_constraintTop_toBottomOf="@+id/edittexttompany"
+        tools:layout_editor_absoluteX="196dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

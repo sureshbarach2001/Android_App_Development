@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgfragment3"
+        android:layout_width="359dp"
+        android:layout_height="380dp"
+        android:layout_row="0"
+        android:layout_column="0">
+
+    </ImageView>
+</GridLayout>

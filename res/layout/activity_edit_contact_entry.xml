@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".SQLiteExample.EditContactEntry">
+
+    <EditText
+        android:id="@+id/editfirstname"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="78dp"
+        android:autofillHints="Enter First Name"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editsecondname"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editfirstname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="73dp"
+        android:autofillHints="Enter Last Name"
+        android:ems="10"
+        android:hint="Second Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editphonenumber"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editsecondname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="75dp"
+        android:autofillHints="Enter Phone Number"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number|textPersonName" />
+
+    <EditText
+        android:id="@+id/editemailaddress"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editphonenumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="78dp"
+        android:autofillHints="Enter Email Address"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edithomeaddress"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editemailaddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="76dp"
+        android:autofillHints="Enter Home Address"
+        android:ems="10"
+        android:hint="Home Address"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="117dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/edithomeaddress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/update" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="135dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/edithomeaddress"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="17dp"
+        android:layout_toEndOf="@+id/btnupdate"
+        android:text="Delete" />
+
+</RelativeLayout>

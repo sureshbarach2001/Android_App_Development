@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SharedPrefrenceExample.SharedPrefrenceExampleOne">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="481dp"
+        android:layout_height="137dp"
+        android:layout_marginBottom="44dp"
+        android:onClick="ShowMySharedPreferences"
+        android:text="@string/show"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtsharedprefrence"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtsharedprefrence"
+        android:layout_width="465dp"
+        android:layout_height="146dp"
+        android:layout_marginBottom="96dp"
+        android:text="@string/textview10"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="439dp"
+        android:layout_height="114dp"
+        android:layout_marginBottom="48dp"
+        android:onClick="SaveMySharedPreferences"
+        android:text="@string/save"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <EditText
+        android:id="@+id/adtshredprefrence"
+        android:layout_width="407dp"
+        android:layout_height="107dp"
+        android:ems="10"
+        android:hint="@string/enter_your_text"
+        android:inputType="text"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">PMD_SE_A_JAVA_2ND_File</string>
+    <string name="button2">Button</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="my_name_is_suresh_kumar_i_m_bs_se_6a_student">My Name is Suresh Kumar i\'m BS(SE)6A student…</string>
+    <string name="button3">Button</string>
+    <string name="txtsecondactivity">TextView</string>
+    <string name="secondactivity">secondactivity</string>
+    <string name="open_camera">Open Camera</string>
+    <string name="imgopenCamera">TODO</string>
+    <string name="open_gallery">Open Gallery</string>
+    <string name="imgpicker2">IMGPICKER2</string>
+    <!--    <String-array name="conacts_array">-->
+    <!--        <item>Ali</item>-->
+    <!--        <item>Ahmad</item>-->
+    <!--        <item>uzair</item>-->
+    <!--        <item>Hamid</item>-->
+    <!--        <item>Masir</item>-->
+    <!--        <item>Nawaz Sharif</item>-->
+    <!--    </String-array>-->
+    <!--    <String-array name="detals_array">-->
+    <!--        <item>Details of Ali</item>-->
+    <!--        <item>Details of Ahmad</item>-->
+    <!--        <item>Details of uzair</item>-->
+    <!--        <item>Details of Hamid</item>-->
+    <!--        <item>Details of Masir</item>-->
+    <!--        <item>Details of Nawaz Sharif</item>-->
+    <!--    </String-array>-->
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBbbfGmD18ryiEQIqxVqV09APR8fwhJAuY
+    </string>
+    <string name="imgopencamera">imgopencamera</string>
+    <string name="open_camera1">Open Camera</string>
+    <string name="todo1">TODO</string>
+    <string name="textview1">TextView</string>
+    <string name="textview2">TextView</string>
+    <string name="textview3">TextView</string>
+    <string name="textview4">TextView</string>
+    <string name="textview">TextView</string>
+    <string name="textviewandimage2">TextView</string>
+    <string name="todoimage">TODO</string>
+    <string name="show">Show</string>
+    <string name="save">Save</string>
+    <string name="enter_your_text">Enter Your Text</string>
+    <string name="textview10">TextView</string>
+    <string name="save_pref">Save Pref</string>
+    <string name="enter">Enter</string>
+    <string name="save_into_file">Save Into File</string>
+    <string name="show_from_file">Show From File</string>
+    <string name="textviewName">TextView</string>
+    <string name="textviewprice">TextView</string>
+    <string name="textviewcompany">TextView</string>
+    <string name="textviewprice1">TextView</string>
+    <string name="download_content">Download Content</string>
+    <string name="button1111">Button!!!!</string>
+    <string name="open_dialog">Open Dialog</string>
+    <string name="alerttextview">AlertTextView</string>
+    <string name="card2">TextView</string>
+    <string name="card1">TextView</string>
+    <string name="cardView">TODO</string>
+    <string name="download">Download</string>
+    <string name="imgview1">TODO</string>
+    <string name="imgview2">TODO</string>
+    <string name="imgview3">TODO</string>
+    <string name="imgview4">TODO</string>
+    <string name="request_permission">Request Permission</string>
+    <string name="check_permission">Check Permission</string>
+    <string name="TODO">contacts_array</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="start_service">Start Service</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="play17">Play</string>
+    <string name="stop18">Stop</string>
+    <string name="play120">Play</string>
+    <string name="stop121">Stop</string>
+    <string name="landscape_mode_is_active">Landscape Mode is Active</string>
+    <string name="portrait_mode_is_active">portrait Mode is Active</string>
+    <string name="click_here">Click Here…</string>
+    <string name="contacts" />
+    <string name="add_contact">\n</string>
+    <string name="firstname">\n</string>
+    <string name="secondname" />
+    <string name="phone_number" />
+    <string name="email" />
+    <string name="home_address" />
+    <string name="buttonsavetosql" />
+    <string name="update">Update</string>
+    <string name="deletefromdb">Delete</string>
+    <string name="send">Send</string>
+    <string name="read">Read</string>
+    <string name="read_context1">\n</string>
+    <string name="sensor">Sensor</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="saveinfirebase">SAVE</string>
+    <string name="listview">LIST</string>
+    <string name="imageshow">TODO</string>
+    <string name="nameperson">Name</string>
+    <string name="companyname">Company</string>
+    <string name="pricerate">Price</string>
+    <string name="nameinput">Name</string>
+    <string name="priceinput">Price</string>
+    <string name="companyinput">Company</string>
+</resources>
